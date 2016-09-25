@@ -48,7 +48,16 @@ left: 50%;
 margin: -70px 0 0 -170px;
 padding: 20px;
 
+}
 
+#navbar {
+
+float: right;
 
 }
 
+#navbar div{
+
+display: inline;
+
+}
