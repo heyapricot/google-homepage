@@ -1,63 +1,93 @@
 body {
 
-background-color: white;
-
-}
-
-#main {
-
-position: relative;
-height: 233px;
-}
-
-
-#logo {
-
-width: 272px;
-height: 92px;
-
-position: absolute;
-top: 50%;
-left: 50%;
-margin: -70px 0 0 -170px;
-padding: 20px;
-
-}
-
-#logo img {
-
-width: 272px;
-height: 92px;
-
-}
-
-#search {
-
-position: relative;
-
-}
-
-#search div {
-
-width: 272px;
-height: 92px;
-
-position: absolute;
-top: 50%;
-left: 50%;
-margin: -70px 0 0 -170px;
-padding: 20px;
+font-family: arial, sans-serif;
 
 }
 
 #navbar {
 
-float: right;
+position: absolute;
+right: 0;
+width: 100%;
+top: 0px;
+font-size: 13px;
+text-align: right;
+}
+
+#navbar a{
+
+padding-left: 15px;
+height: 70px;
+line-height: 70px;
+}
+
+#search {
+
+position: absolute;
+top: 311px;
 
 }
 
-#navbar div{
+#main {
 
-display: inline;
+height: 233px;
+margin-top: 89px;
+}
+
+#main img{
+
+width: 272px;
+height: 92px;
+padding-top: 109px;
+
+display: block;
+margin: auto;
+}
+
+#search {
+
+width: 100%;
+
+}
+
+#searchbar {
+
+margin: 0 auto;
+max-width: 584px;
+height: 38px;
+border: 1px solid #4d90fe;
+padding-bottom: 2px;
+padding-top: 3px;
+
+}
+
+#searchbar input {
+
+width: 100%;
+background: transparent;
+border: medium none;
+
+}
+
+#buttons {
+
+margin: 0 auto;
+max-width: 584px;
+text-align: center;
+}
+
+
+#footer {
+
+position: absolute;
+right: 0;
+left: 0;
+bottom: 0;
+
+}
+
+#footer #right {
+
+float: right;
 
 }
