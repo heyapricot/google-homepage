@@ -5,33 +5,34 @@ font-family: arial, sans-serif;
 }
 
 #navbar {
-
+display: inline;
 position: absolute;
 right: 0;
 width: 100%;
 top: 0px;
 font-size: 13px;
 text-align: right;
+line-height: 70px;
+padding-right: 30px;
 }
 
-#navbar a{
+.top_links{
 
 padding-left: 15px;
-height: 70px;
-line-height: 70px;
 }
 
 #signin {
-
+display: inline-block;
 color: #fff;
 border: 1px solid #4285f4;
-
+padding: 0 12px;
+margin-left: 15px;
 font-weight: bold;
 outline: none;
 background: #4285f4;
 background: -moz-linear-gradient(top, #4387fd, #4683ea);
-
-height: 28px;
+line-height: 28px;
+border-radius: 2px;
 }
 
 #search {
@@ -116,7 +117,7 @@ text-align: center;
 background: #f2f2f2;
 border-top: 1px solid #e4e4e4;
 line-height: 40px;
-
+padding-right: 30px;
 position: absolute;
 right: 0;
 left: 0;
